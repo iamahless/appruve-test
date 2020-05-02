@@ -1,0 +1,92 @@
+html,
+body {
+   font-family: 'Muli', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+}
+
+@media only screen and (min-width: 1200px) {
+   .container {
+      max-width: 1180px;
+   }
+}
+
+
+.btn-primary {
+   color: #fff;
+   background-color: #111;
+   border-color: #111;
+}
+
+.btn-primary:hover {
+   background-color: #000;
+   border-color: #000;
+}
+
+.btn {
+   font-weight: 700;
+   border: 1px solid transparent;
+   padding: .55rem 1.75rem;
+}
+
+.btn-lg {
+   font-weight: 700;
+   border: 1px solid transparent;
+   padding: .75rem 2rem;
+}
+
+.banner-section {
+   padding: 5rem 0px;
+   background-color: #f5f8ff;
+}
+
+.welcome-body h1 {
+   font-size: 55px;
+   line-height: 55px;
+   color: #000;
+}
+
+.welcome-body p {
+   color: #4f4f4f;
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: -.02em;
+   margin: 3rem 0;
+}
+
+section.works-section {
+   padding: 5rem 0px;
+}
+
+.gradient-number h1 {
+   font-size: 9.375rem;
+   line-height: 10.75rem;
+   font-weight: bold;
+   opacity: 0.5;
+   background: rgb(1, 183, 243);
+   background: -moz-linear-gradient(90deg, rgba(1, 183, 243, 1) 0%, rgba(255, 255, 255, 1) 100%);
+   background: -webkit-linear-gradient(90deg, rgba(1, 183, 243, 1) 0%, rgba(255, 255, 255, 1) 100%);
+   background: linear-gradient(90deg, rgba(1, 183, 243, 1) 0%, rgba(255, 255, 255, 1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01b7f3", endColorstr="#ffffff", GradientType=1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+   background-blend-mode: overlay;
+}
+
+section.do-with-section {
+   padding-bottom: 5rem 0px;
+}
+
+.do-with-icon {
+   padding-right: 1rem;
+}
