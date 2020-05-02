@@ -149,3 +149,7 @@ section.pricing-section {
    font-size: 15px;
    line-height: 15px;
 }
+
+a {
+   color: #111;
+}
